@@ -8,3 +8,38 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+.tweet {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tweet p {
+  margin: 0;
+}
+
+#tweet-form input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#tweet-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#tweet-form input[type="submit"]   {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer; 
+}  
+
+
