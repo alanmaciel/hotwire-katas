@@ -2,6 +2,16 @@
 <div data-controller="hello">
 </div>
 
-<div data-controller="greet">
-  <button data-action="click->greet#greet">Say Hello</button>
+<div data-controller="greets">
+<p data-greets-target="name2">hola desde el name 2 </p>
+
+  <p data-greets-target="name2">soy el name 2</p>
+  <button data-action="click->greets#greet">Say Hello</button>
+
+
+  <input data-greets-target="name">
+  <button data-action="click->greets#greeting">Greet</button>
+  <button data-action="click->greets#greeting2">Greet2</button>
+  <button data-action="click->greets#bye">Bye</button>
+  <p data-greets-target="output"></p>
 </div>
