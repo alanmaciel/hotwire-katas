@@ -42,4 +42,9 @@ export default class extends Controller {
       this.overlayTarget.classList.add("hidden")
     }, 300)
   }
+  outsideClick(event) {
+    if (!this.contentTarget.contains(event.target)) {
+      this.close()
+    }
+  }
 }

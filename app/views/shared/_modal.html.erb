@@ -1,6 +1,7 @@
 <!-- _modal.html.erb -->
 <div
   data-modal-target="overlay"
+  data-action="window:keydown.escape->modal#close click->modal#outsideClick"
   data-action="window:keydown.escape->modal#close"
   class="fixed inset-0 z-50 hidden items-center justify-center bg-black bg-opacity-50 transition-opacity duration-300 ease-out opacity-0"
 >
